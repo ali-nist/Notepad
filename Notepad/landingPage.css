@@ -1,0 +1,74 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+.navbar {
+    width: 80%;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.addButton {
+   width: 70px;
+   height: 70px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    position: fixed;
+    bottom: 52px;
+    right: 85px;
+}
+.toolbox {
+    border: 1px solid #CED4DA;
+    border-bottom: 1px solid #4CAAF4;
+    padding: 5px;
+}
+.cursorPointer {
+    cursor:pointer;
+}
+.welcomeTitle{
+    font-size:25px;
+}
+@media screen and (min-width:358px) and (max-width:768px){
+        .addButton{
+            width: 60px;
+            height: 60px;
+            bottom: 465px;
+            right: 10px;
+        }
+}
+@media screen and (max-width:374px){
+        .addButton{
+            width: 60px;
+            height: 60px;
+            bottom: 470px;
+            right: 5px;
+        }
+        .navbar {
+            width: 76%;
+        }
+        .welcomeTitle{
+            font-size:20px;
+        }
+}
+@media screen and (min-width:360px) and (max-width:376px){
+        .addButton{
+            width: 60px;
+            height: 60px;
+            bottom: 465px;
+            right: 5px;
+        }
+}
+@media screen and (min-width:340px) and (max-width:360px){
+        .addButton{
+            width: 60px;
+            height: 60px;
+            bottom: 470px;
+            right: 5px;
+        }
+        .welcomeTitle{
+            font-size:20px;
+        }
+}
